@@ -7,6 +7,15 @@ This script consists:
  - List, tuple & dictionary manipulation
  - Python socket module with multiprocessing
 
-This script generates:
+This script reads and writes:
  - ip-safe.txt & ip-block.txt from input file: ip-file.txt
  - Apache's deny.conf & allow.txt from Apache's input file \*access.logs
+
+The Apache implementation is designed to handle 10,000~100,000 access entries each time it runs
+
+This script does not support IPv6 due to development time restrictions and working on IPv4 is adequate to block large VPN providers traffics, which means they are allowed.
+
+This script performs lots and lots of filtering to avoid:
+ - Causing trouble to real website users
+ - Save processing power or memory on deployed server
+ - Allow manually specify permitted IP addresses eventhough they have a FQDN
