@@ -19,3 +19,7 @@ This script does not support IPv6 due to development time restrictions and worki
  - Causing trouble to real website users
  - Save processing power or memory on deployed server
  - Allow manually specify permitted IP addresses eventhough they have a FQDN
+
+**To test if this script works:**
+ - Open the sample output file (ip-block.txt or deny.conf)
+ - Perform an reverse DNS lookup (nslookup <ip-address>) on the addresses and see
