@@ -3,7 +3,7 @@
 
 *The problem this script intended to solve is to deal with VPN-masked attaking traffic that is not possible to block with standard firewall infrustructures & labours anymore*
 
-This script is mainly used to block VPN traffic from large providers, but also works on blocking any traffic generated on servers with a FQDN, thus effectively shield the server from common attacking traffics. It currently doesn't support IPv6 due to development time restrictions, since processing IPv4 only is adequate to block large VPN providers' traffics.
+This script is mainly used to block large VPN provider's traffic, but also works on blocking any traffic generated on servers with a FQDN, thus effectively shields the server from 50%, upto 90% of attacking traffics. It currently doesn't support IPv6 due to development time restrictions, since processing IPv4 only is adequate to block large VPN providers' traffics.
 
 The source code is only commented in Mandarin and Google/Bing Translate could handle that.
 
