@@ -3,6 +3,8 @@
 
 This script is mainly used to block VPN traffic from large providers, but also works on blocking any traffic generated on servers with a FQDN, and it does not support IPv6 due to development time restrictions since working on IPv4 is adequate to block large VPN providers' traffics, which means all IPv6 traffics are automatically allowed.
 
+The source code is only commented in Mandarin and Google/Bing Translate could handle that.
+
 **This script consists:**
  - File IO
  - List, tuple & dictionary manipulation
